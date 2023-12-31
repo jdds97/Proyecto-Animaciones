@@ -37,6 +37,7 @@
           <div class="d-flex justify-content-end">
             <i class="d-xl-none"></i>
             <button
+              id="btnNavbar"
               class="navbar-toggler d-xl-none"
               type="button"
               data-bs-toggle="offcanvas"
@@ -44,7 +45,8 @@
               aria-controls="offcanvasDarkNavbar"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon" id="iconoNavbar"></span>
+              <span class="bi bi-x-lg" id="iconoX"></span>
             </button>
           </div>
           <div
@@ -664,7 +666,7 @@
                       <img
                         src="img/576px/imagen1-small.webp"
                         alt="Montaña"
-                        class="rounded img-fluid"
+                        class="rounded img-fluid "
                       />
                       <h3 class="mt-2">Aventura en la Montaña</h3>
                     </picture>
@@ -701,7 +703,7 @@
                       <img
                         src="img/576px/imagen2-small.webp"
                         alt="Bosque"
-                        class="img-fluid rounded"
+                        class="img-fluid rounded "
                       />
                       <h3 class="mt-2">Explorando el Bosque</h3>
                     </picture>
@@ -1017,7 +1019,7 @@
                           />
                           <h5>Matt Brandom</h5>
                           <p>FreeLancer</p>
-                          <audio src="Neon Lights.mp3" controls autoplay loop></audio>
+                          <audio src="Neon Lights.mp3" controls autoplay loop muted></audio>
                         </div>
                         <div class="col-4 position-relative d-none d-xl-block">
                           <div class="content-container bg-white mb-3 px-4">

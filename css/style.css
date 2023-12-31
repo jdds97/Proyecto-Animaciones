@@ -425,7 +425,6 @@ img {
     opacity 1s ease, box-shadow 1s ease-in-out, background-color 1s ease-in-out,
     filter 1s ease-in-out;
   animation: deslizar 2s ease-in-out both;
-
 }
 img:hover {
   transform: scale(1, 1) translateX(300px);
@@ -467,3 +466,39 @@ img:hover {
     transform: translateX(-10px);
   }
 }
+#btnNavbar {
+  z-index: 1042;
+}
+
+#iconoX {
+  color: white;
+  display: none;
+}
+/*Cuando el boton con id btnNavbar se clicka y sale el menu con el id offcanvasDarkNvabar que el iconoNavbar no se vea */
+#offcanvasDarkNavbar:focus ~ #iconoX {
+  display: block;
+}
+#offcanvasDarkNavbar:focus ~ #iconoNavBar {
+  display: none;
+}
+#btnNavBar:focus ~ #iconoX {
+  display: block;
+}
+#btnNavBar:focus ~ #iconoNavBar {
+  display: block;
+}
+/* #btnNavbar:target #offcanvasDarkNavbar:focus #iconoNavbar {
+  display: none;
+}
+
+#btnNavbar:target #offcanvasDarkNavbar:focus #iconoX {
+  display: block;
+}
+
+#offcanvasDarkNavbar:focus #iconoNavbar {
+  display: none;
+}
+
+#offcanvasDarkNavbar:focus #iconoX {
+  display: inline-block;
+} */
