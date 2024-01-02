@@ -333,4 +333,15 @@ h6 {
 #floatingTextarea2 {
   height: 300px;
 }
+
 /*Fin Contact*/
+
+
+/*Animaciones*/
+#imagen-transformacion {
+  transition: transform .7s ease-in-out;
+}
+
+#imagen-transformacion:hover {
+  transform: rotate(360deg) scale(1.2) translate(50px, 50px);
+}
