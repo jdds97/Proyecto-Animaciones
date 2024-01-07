@@ -14,7 +14,7 @@ Sergio Guijarro:
 Se encargará de implementar la reproducción de un vídeo que no se reproduzca automáticamente pero que muestre sus controles, utilizando la etiqueta <video>.
 Trabajará en dos elementos de diseño que incluyan transformaciones CSS3 distintas cada uno de ellos.
 -ESCALA HOVER 
-**IMAGEN ABOUT SCALE  
+**IMAGEN ABOUT SCALE
 -ROTACION HOVER
 **ICONOS FACTS
 **BARRAS DE ICONO QUE DEN UNA VUELTA
